@@ -3,6 +3,8 @@
     public interface IFunction
     {
         public int EvaluateX(double x);
+        public string FirstDerivative();
+        public string SecondDerivative();
         //Intervals
         public List<(double,double)> Domain { get; set; }
         public List<(double,double)> ContinuityIntervals { get; set; }
@@ -14,6 +16,7 @@
         public List<(double, double)> LocalExtremes { get; set; }
         public List<(double, double)> TurningPoints { get; set; }
         //Asymptotes
+        public List<Asymptotes> Asymptotes { get; set; }
 
     }
 }

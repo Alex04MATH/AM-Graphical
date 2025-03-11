@@ -14,6 +14,13 @@ namespace GraphicBackend
         double b; //y-intercept
         double x; //Used if vertical asymptote
 
+        public Asymptotes(double m, double b, double x = double.PositiveInfinity)
+        {
+            if (x != double.PositiveInfinity)
+                this.x = x;
+            this.m = m;
+            this.b = b;
+        }
         public string Equation()
         {
             if(asymptoteType == AsymptoteType.Vertical)

@@ -8,18 +8,18 @@ namespace GraphicBackend
 {
     public abstract class Function : IFunction
     {
-        private List<(double, double)> domain;
-        private List<(double, double)> continuityIntervals;
-        private List<(double, double)> increasingIntervals;
-        private List<(double, double)> decreasingIntervals;
-        private List<(double, double)> concaveIntervals;
-        private List<(double, double)> convexIntervals;
-        private List<(double, double)> localExtremes;
-        private List<(double, double)> turningPoints;
-        private List<Asymptotes> asymptotes;
+        protected List<(double, double)> domain;
+        protected List<(double, double)> continuityIntervals;
+        protected List<(double, double)> increasingIntervals;
+        protected List<(double, double)> decreasingIntervals;
+        protected List<(double, double)> concaveIntervals;
+        protected List<(double, double)> convexIntervals;
+        protected List<(double, double)> localExtremes;
+        protected List<(double, double)> turningPoints;
+        protected List<Asymptotes> asymptotes;
 
         #region Interface
-        public abstract int EvaluateX(double x);
+        public abstract double EvaluateX(double x);
         public abstract string FirstDerivative();
         public abstract string SecondDerivative();
         //Intervals
@@ -39,6 +39,8 @@ namespace GraphicBackend
         protected abstract double EvaluateFirstDerivative(double x);
         protected abstract double EvaluateSecondDerivative(double x);
         protected abstract void FindDomain();
+        protected abstract void FindFirstDerivativeDomain();
+        protected abstract void FindSecondDerivativeDomain();
         protected abstract void FindContinuity();
         protected abstract void FindIncreasingIntervals();
         protected abstract void FindDecreasingIntervals();
@@ -47,5 +49,8 @@ namespace GraphicBackend
         protected abstract void FindLocalExtremes();
         protected abstract void FindTurningPoints();
         protected abstract void FindObliquesAsymptotes();
+        protected abstract bool IsInDomain(double x);
+        protected abstract bool IsInFirstDerivativeDomain(double x);
+        protected abstract bool IsInSecondDerivativeDomain(double x);
     }
 }

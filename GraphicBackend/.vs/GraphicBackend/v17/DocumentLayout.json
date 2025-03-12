@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|d:\\xarxes\\programaci\u00F3n\\am-graphical\\graphicbackend\\functionf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|solutionrelative:functionf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|d:\\xarxes\\programaci\u00F3n\\am-graphical\\graphicbackend\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|d:\\xarxes\\programaci\u00F3n\\am-graphical\\graphicbackend\\asymptotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|solutionrelative:asymptotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|d:\\xarxes\\programaci\u00F3n\\am-graphical\\graphicbackend\\ifunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|solutionrelative:ifunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|d:\\xarxes\\programaci\u00F3n\\am-graphical\\graphicbackend\\asymptotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5660139A-1C83-40EB-B3E5-F168F42F45D5}|GraphicBackend.csproj|solutionrelative:asymptotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +31,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Function.cs",
-              "DocumentMoniker": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Function.cs",
-              "RelativeDocumentMoniker": "Function.cs",
-              "ToolTip": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Function.cs",
-              "RelativeToolTip": "Function.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAIAAAAAAAAAA==",
+              "Title": "FunctionF.cs",
+              "DocumentMoniker": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\FunctionF.cs",
+              "RelativeDocumentMoniker": "FunctionF.cs",
+              "ToolTip": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\FunctionF.cs",
+              "RelativeToolTip": "FunctionF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:52:08.606Z",
+              "OverriddenGroupName": "",
+              "WhenOpened": "2025-03-12T18:30:15.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Function.cs",
+              "DocumentMoniker": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Function.cs",
+              "RelativeDocumentMoniker": "Function.cs",
+              "ToolTip": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Function.cs",
+              "RelativeToolTip": "Function.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "",
+              "WhenOpened": "2025-03-11T18:52:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Asymptotes.cs",
               "DocumentMoniker": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Asymptotes.cs",
               "RelativeDocumentMoniker": "Asymptotes.cs",
               "ToolTip": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\Asymptotes.cs",
               "RelativeToolTip": "Asymptotes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "",
               "WhenOpened": "2025-03-11T02:21:40.612Z",
               "EditorCaption": ""
             },
@@ -58,7 +78,7 @@
               "RelativeDocumentMoniker": "IFunction.cs",
               "ToolTip": "D:\\XARXES\\Programaci\u00F3n\\AM-Graphical\\GraphicBackend\\IFunction.cs",
               "RelativeToolTip": "IFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T01:22:59.282Z",
               "EditorCaption": ""

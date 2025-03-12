@@ -2,7 +2,7 @@
 {
     public interface IFunction
     {
-        public int EvaluateX(double x);
+        public double EvaluateX(double x);
         public string FirstDerivative();
         public string SecondDerivative();
         //Intervals

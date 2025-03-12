@@ -8,7 +8,6 @@ namespace GraphicBackend
 {
     public abstract class Function : IFunction
     {
-        protected double[] parameters;
         protected List<(double, double)> domain;
         protected List<(double, double)> continuityIntervals;
         protected List<(double, double)> increasingIntervals;

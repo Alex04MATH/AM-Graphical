@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ namespace GraphicBackend
     public class Asymptotes
     {
         public AsymptoteType asymptoteType;
-        // y = mx + b
+        // y = m
         double m; //Slope
         double b; //y-intercept
         double x; //Used if vertical asymptote

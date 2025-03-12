@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GraphicBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9a312c513734b1fb769a62f4d91d45f494c3ec3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3509891ffa64203d4a390b023a3e2909702f37d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GraphicBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GraphicBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
